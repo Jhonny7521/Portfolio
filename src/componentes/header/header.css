@@ -1,0 +1,182 @@
+header{
+  height: 100vh;
+  padding-top: 4rem;
+  overflow: hidden;
+}
+
+.header__container{
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/*=================== NOMBRE ===================*/
+/* .nombre{
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .nombre__container {
+   width: 400px;
+   background-color: transparent;
+   border: 3px solid rgba(255, 255, 255, 0.33);
+   border-radius: 20px;
+   padding: 14px 24px;
+   transform: rotate(1deg);
+   animation: turnOnBorder 0.24s forwards step-end, flickerBorder calc(var(--animation-time) * 16) infinite step-end 1s ;
+ }
+ 
+ .p_nombre {
+   font-family: 'Poppins', sans-serif;
+   margin: 0px;
+   color: #fff;
+ } */
+ 
+ /* .p_nombre span {
+   font-size: 30px;
+   opacity: 0.33;
+   animation: turnOn forwards step-end;
+ } */
+
+ .nombre {
+  font-size: 50px;
+  opacity: 0.33;
+  animation: turnOn forwards step-end;
+}
+ 
+ /* .p_nombre span:nth-child(1) {
+   animation-delay: 0.3s;
+ }
+ .p_nombre span:nth-child(2) {
+   animation-delay: 0.2s;
+ }
+ .p_nombre span:nth-child(3) {
+   animation-delay: 0.4s;
+ }
+ /* .p_nombre span:nth-child(4) {
+   animation-delay: 0.3s;
+ } 
+ .p_nombre span:nth-child(4) {
+   animation: turnOn 0.3s forwards step-end, 
+     flicker var(--animation-time) infinite step-end 1s;
+ } */
+ 
+ @keyframes turnOnBorder {
+   100% {
+     border: 3px solid #fff;
+     box-shadow: var(--box-shadow);
+     opacity: 1;
+   }  
+ }
+ 
+ @keyframes turnOn {
+   100% {
+     text-shadow: var(--text-shadow);
+     opacity: 1;
+   }  
+ }
+ 
+ @keyframes flicker {
+   0%{
+     text-shadow: var(--text-shadow);
+   }
+   99% {
+     text-shadow: none;
+   }  
+ }
+ 
+ @keyframes flickerBorder {
+   0%{
+     box-shadow: var(--box-shadow);
+   }
+   99% {
+     box-shadow: none;
+   }  
+ }
+
+
+/*=================== CTA ===================*/
+.cta{
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem ;
+  justify-content: center;
+}
+
+/*=================== HEADERS SOCIALS ===================*/
+
+.header__socials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+ .header__socials::after{
+   content: '';
+   width: 1px;
+   height: 2rem;
+   background: var(--color-primary);
+ }
+
+/*=================== ME ===================*/
+.me {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/*=================== SCROLL DOWN ===================*/
+.scroll__down{
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+
+/* ============================== MEDIA QUERIES (MEDIUM DEVICES) =================================*/
+@media screen and (max-width: 1024px) {
+  header{
+    height: 68vh;
+  }
+}
+
+/* ============================== MEDIA QUERIES (SMALL DEVICES) =================================*/
+@media screen and (max-width: 600px) {
+  header{
+    height: 100vh;
+  }
+
+  .header__socials, .scroll__down{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
