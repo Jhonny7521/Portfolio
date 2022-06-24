@@ -6,7 +6,7 @@ import Experiencia from './componentes/experiencia/Experiencia';
 //import Testimonios from './componentes/testimonios/Testimonios';
 import Contacto from './componentes/contacto/Contacto'
 import Footer from './componentes/footer/Footer'
-//import Portfolio from './componentes/portfolio/Portfolio';
+import Portfolio from './componentes/portfolio/Portfolio';
 import About from './componentes/about/About';
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
       <About/>
       <Experiencia />
       {/* <Servicios /> */}
-      {/* <Portfolio /> */}
+      <Portfolio />
       {/* <Testimonios /> */}
       <Contacto />
       <Footer /> 
