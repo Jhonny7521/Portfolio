@@ -1,9 +1,9 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/img/Safelive1.jpg';
-import IMG2 from '../../assets/img/helpingpockets1.jpg';
-import IMG3 from '../../assets/img/portfolio3.jpg';
-import IMG4 from '../../assets/img/videojuegos.jpg';
+import IMG1 from '../../assets/img/JuegayAprende.jpg';
+import IMG2 from '../../assets/img/Safelive1.jpg';
+import IMG3 from '../../assets/img/helpingpockets1.jpg';
+import IMG4 from '../../assets/img/portfolio3.jpg';
 // import IMG5 from '../../assets/img/portfolio5.jpg';
 // import IMG6 from '../../assets/img/portfolio6.jpg';
 
@@ -13,31 +13,32 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'SAFELIVE',
+    title: 'VIDEOJUEGOS EDUCATIVOS',
     github: 'https://github.com/Jhonny7521',
-    demo: 'https://linkdeproyecto.com'
+    demo: 'https://juegayaprende.netlify.app/index.html'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'HELPINGPOCKETS',
+    title: 'SAFELIVE',
     github: 'https://github.com/Jhonny7521',
     demo: 'https://linkdeproyecto.com'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'SALUD-VIDA ETERNA',
+    title: 'HELPINGPOCKETS',
     github: 'https://github.com/Jhonny7521',
     demo: 'https://linkdeproyecto.com'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'VIDEOJUEGOS EDUCATIVOS',
+    title: 'SALUD-VIDA ETERNA',
     github: 'https://github.com/Jhonny7521',
     demo: 'https://linkdeproyecto.com'
-  }
+  },
+  
 ]
 
 const Portfolio = () => {
