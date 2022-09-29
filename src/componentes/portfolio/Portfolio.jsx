@@ -20,23 +20,23 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'SAFELIVE',
-    github: 'https://github.com/Jhonny7521',
-    demo: 'https://linkdeproyecto.com'
-  },
+    title: 'ADMIN PRODUCTS',
+    github: 'https://github.com/Jhonny7521/AdmiinistradorDeProductos',
+    demo: '#'
+  },  
   {
     id: 3,
     image: IMG3,
     title: 'HELPINGPOCKETS',
     github: 'https://github.com/Jhonny7521',
-    demo: 'https://linkdeproyecto.com'
+    demo: '#'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'SALUD-VIDA ETERNA',
+    title: 'SAFELIVE',
     github: 'https://github.com/Jhonny7521',
-    demo: 'https://linkdeproyecto.com'
+    demo: '#'
   },
   
 ]

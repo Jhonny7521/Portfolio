@@ -32,6 +32,11 @@
   margin-bottom: 1rem;
 }
 
+.not-active { 
+  pointer-events: none; 
+  cursor: default; 
+}
+
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) =================================*/
 @media screen and (max-width: 1024px) {
   .portfolio__container {
