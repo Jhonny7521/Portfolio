@@ -1,9 +1,10 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/img/JuegayAprende.png';
-import IMG2 from '../../assets/img/portfolio3.jpg';
-import IMG3 from '../../assets/img/helpingpockets1.jpg';
-import IMG4 from '../../assets/img/Safelive1.jpg';
+import IMG1 from '../../assets/img/PStore_2.jpg';
+import IMG2 from '../../assets/img/JuegayAprende.png';
+import IMG3 from '../../assets/img/portfolio3.jpg';
+import IMG4 from '../../assets/img/helpingpockets1.jpg';
+import IMG5 from '../../assets/img/Safelive1.jpg';
 // import IMG5 from '../../assets/img/portfolio5.jpg';
 // import IMG6 from '../../assets/img/portfolio6.jpg';
 
@@ -13,27 +14,34 @@ const data = [
   {
     id: 1,
     image: IMG1,
+    title: 'PStore',
+    github: 'https://github.com/Jhonny7521',
+    demo: 'https://tienda-online-bsale-frontend.netlify.app/'
+  },
+  {
+    id: 2,
+    image: IMG2,
     title: 'VIDEOJUEGOS EDUCATIVOS',
     github: 'https://github.com/Jhonny7521',
     demo: 'https://juegayaprende.netlify.app/index.html'
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 3,
+    image: IMG3,
     title: 'ADMIN PRODUCTS',
     github: 'https://github.com/Jhonny7521/AdmiinistradorDeProductos',
     demo: '#'
   },  
   {
-    id: 3,
-    image: IMG3,
+    id: 4,
+    image: IMG4,
     title: 'HELPINGPOCKETS',
     github: 'https://github.com/Jhonny7521',
     demo: '#'
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: 'SAFELIVE',
     github: 'https://github.com/Jhonny7521',
     demo: '#'
