@@ -5,6 +5,7 @@
 }
 
 .portfolio__item {
+  
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 2rem;
@@ -23,11 +24,16 @@
 }
 
 .portfolio__item h3{
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 1rem;
+}
+.portfolio__item p{
+  font-size: 0.8rem;
 }
 
 .portfolio__item-cta{
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -35,6 +41,20 @@
 .not-active { 
   pointer-events: none; 
   cursor: default; 
+}
+
+.conatiner__technologies{
+  margin: 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__tech{
+  width: 60px;
+  height: 60px;
 }
 
 /* ============================== MEDIA QUERIES (MEDIUM DEVICES) =================================*/

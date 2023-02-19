@@ -1,13 +1,18 @@
 import React from 'react';
 import './footer.css'
-import { FaFacebookF } from 'react-icons/fa'
-import { FiInstagram } from 'react-icons/fi'
-import { IoLogoTwitter } from 'react-icons/io'
+import { FaFacebookF } from 'react-icons/fa';
+import { FiInstagram } from 'react-icons/fi';
+import { IoLogoTwitter } from 'react-icons/io';
+import { MdLaptopMac } from 'react-icons/md';
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className='footer__logo'>JHONY</a>
+      <div className="footer__name">
+        <span className='icon__lap'> <MdLaptopMac/> </span>
+        <a href="#home" className='footer__logo'> Jhonny Quiliche </a>
+        <span className='icon__lap'> <MdLaptopMac/> </span>
+      </div>
 
       <ul className="permalinks">
         <li><a href="#home">Home</a></li>

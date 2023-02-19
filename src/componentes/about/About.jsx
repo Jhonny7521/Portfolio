@@ -18,7 +18,7 @@ function About() {
           </div>
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experiencia</h5>
@@ -34,10 +34,10 @@ function About() {
               <h5>Projectos</h5>
               <small>3+ <br/> Completados</small>
             </article>
-          </div>
+          </div> */}
 
           <p>
-          Soy bachiller en ingeniería Electrónica por pasión y vocación. Pertenezco a un grupo de desarrollo e innovación con el que he obtenido el primer lugar en un concurso nacional de innovación social. Por ello, me encuentro formándome en el desarrollo de aplicaciones web y móviles de manera autodidacta. Si hay algo que resaltar sobre mi es que trabajo de manera directa y creativa, involucrándome al 100% en todo lo que hago para conseguir siempre el mejor resultado.
+          Soy Jhonny Quiliche, bach. en Ing. Electrónica apasionado y vocacional por la tecnología. Siempre en busqueda de nuevos desafíos y me caracterizo por ser una persona autodidacta. Soy muy creativo y siempre me gusta aportar propuestas que ayuden a la empresa o a mis colaboradores a ser más eficientes en el trabajo. Con 1 ½ año de experiencia en el desarrollo de aplicaciones de escritorio y actualmente me encuentro enfocado en el desarrollo web backend, utilizando lenguajes como Python y Javascript. Si hay algo que resaltar sobre mi es que trabajo de manera directa y creativa, involucrándome al 100% en todo lo que hago para conseguir siempre el mejor resultado.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Hablemos</a>

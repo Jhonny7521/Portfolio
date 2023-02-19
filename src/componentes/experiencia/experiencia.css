@@ -6,7 +6,7 @@
 
 .experience__container > div {
   background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
+  padding: 2.4rem 2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -17,7 +17,7 @@
   border-color: var(--color-primary-variant);
   cursor: default;
 }
- 
+
 .experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
@@ -26,9 +26,14 @@
 
 .experience__content{
   display: grid;
+  gap: 20px;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
  }
+/* .experience__content{
+  display: flex;
+  flex-direction: column;
+ } */
 
 .experience__details{
   display: flex;
@@ -45,7 +50,7 @@
 
   .experience__container{
     grid-template-columns: 1fr;
-  } 
+  }
 
   .experience__container > div {
     width: 80%;
@@ -67,5 +72,259 @@
   .experience__container > div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+}
+
+/* --- ------- ---------- ---------- -----------*/
+
+.det-titulo{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+}
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+
+.detalles{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.menu{
+  position: relative;
+  border: 1px solid var(--color-primary);
+  border-radius: 20px;
+}
+
+.menu div{
+  position: relative;
+  width: 0;
+  height: 8px;
+  border-radius: 10px;
+  background-color: var(--color-primary);
+}
+
+/* animation */
+#py-menu{
+  animation: py-barra 2s forwards;
+}
+
+@keyframes py-barra{
+  100%{
+    width: 60%;
+  }
+}
+
+#js-menu{
+  animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra{
+  100%{
+    width: 50%;
+  }
+}
+#jav-menu{
+  animation: jav-barra 2s forwards;
+}
+
+@keyframes jav-barra{
+  100%{
+    width: 40%;
+  }
+}
+
+#dart-menu{
+  animation: dart-barra 2s forwards;
+}
+
+@keyframes dart-barra{
+  100%{
+    width: 25%;
+  }
+}
+
+#dj-menu{
+  animation: dj-barra 2s forwards;
+}
+
+@keyframes dj-barra{
+  100%{
+    width: 40%;
+  }
+}
+
+#drf-menu{
+  animation: drf-barra 2s forwards;
+}
+
+@keyframes drf-barra{
+  100%{
+    width: 40%;
+  }
+}
+
+#flk-menu{
+  animation: flk-barra 2s forwards;
+}
+
+@keyframes flk-barra{
+  100%{
+    width: 50%;
+  }
+}
+
+#spr-menu{
+  animation: spr-barra 2s forwards;
+}
+
+@keyframes spr-barra{
+  100%{
+    width: 30%;
+  }
+}
+
+#exp-menu{
+  animation: exp-barra 2s forwards;
+}
+
+@keyframes exp-barra{
+  100%{
+    width: 25%;
+  }
+}
+
+#html-menu{
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+  100%{
+    width: 70%;
+  }
+}
+
+#mysql-menu{
+  animation: mysql-barra 2s forwards;
+}
+
+@keyframes mysql-barra{
+  100%{
+    width: 40%;
+  }
+}
+
+#ora-menu{
+  animation: ora-barra 2s forwards;
+}
+
+@keyframes ora-barra{
+  100%{
+    width: 30%;
+  }
+}
+
+#pg-menu{
+  animation: pg-barra 2s forwards;
+}
+
+@keyframes pg-barra{
+  100%{
+    width: 20%;
+  }
+}
+
+#mng-menu{
+  animation: mng-barra 2s forwards;
+}
+
+@keyframes mng-barra{
+  100%{
+    width: 30%;
+  }
+}
+
+#vsc-menu{
+  animation: vsc-barra 2s forwards;
+}
+
+@keyframes vsc-barra{
+  100%{
+    width: 70%;
+  }
+}
+
+#git-menu{
+  animation: git-barra 2s forwards;
+}
+
+@keyframes git-barra{
+  100%{
+    width: 50%;
+  }
+}
+
+#fig-menu{
+  animation: fig-barra 2s forwards;
+}
+
+@keyframes fig-barra{
+  100%{
+    width: 40%;
+  }
+}
+
+#ill-menu{
+  animation: ill-barra 2s forwards;
+}
+
+@keyframes ill-barra{
+  100%{
+    width: 50%;
+  }
+}
+
+#html-menu{
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+  100%{
+    width: 70%;
+  }
+}
+
+#html-menu{
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+  100%{
+    width: 70%;
+  }
+}
+
+#html-menu{
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+  100%{
+    width: 70%;
+  }
+}
+
+#html-menu{
+  animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+  100%{
+    width: 70%;
   }
 }
