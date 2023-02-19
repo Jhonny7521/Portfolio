@@ -80,7 +80,7 @@
 .det-titulo{
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   gap: 15px;
 }
 .skills:not(:last-child){
@@ -91,7 +91,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   margin-bottom: 10px;
 }
 
