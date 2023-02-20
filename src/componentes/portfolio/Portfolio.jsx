@@ -58,7 +58,7 @@ const data = [
     description: 'Pokedex en línea: Consumiendo API POKEAPI, autenticación y funcionalidad de agregar Pokémon favoritos con Supabase.',
     github: 'https://github.com/Jhonny7521/Pokedex-Authentication-Suprabase',
     video: '',
-    demo: 'https://wonderful-longma-5d3b8e.netlify.app/',
+    demo: 'https://pokedex-app-jql.netlify.app/',
     technologies: [REACT, JS, NODEJS]
   },
   {
